@@ -36,10 +36,10 @@ module.exports = {
         product_id,
         sale_value: amount_purchased * product.unitary_value,
         date_sale: knex.fn.now(),
-        status: 'APROVADO',
+        status: 'APPROVED',
       });
 
-      await knex('produtos')
+      await knex('products')
         .where('id', product_id)
         .update({ qtd_stock: product.qtd_stock - 1 });
 
@@ -47,6 +47,7 @@ module.exports = {
         message: 'Venda realizada com sucesso',
       });
     } catch (error) {
+      console.log(error.message);
       if (error.message === 'INVALID_CARD' || error.message === 'PRODUCT_NOT_IN_STOCK') {
         res.status(412).json({
           message: 'Os valores informados não são válidos.',
