@@ -9,7 +9,6 @@
     - MySQL;
 
 ### Funcionalidades a serem desenvolvidas
-    - CRUD de Usuários;
     - CRUD de Produtos;
     - Venda de produtos com cartão de crédito;
     - Após a API ser desenvolvida, disponibilizar o módulo de vendas como um micro serviço utilizando Kafka;
