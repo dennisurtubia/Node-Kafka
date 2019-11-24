@@ -1,3 +1,8 @@
+/**
+ * Author: Dennis Felipe Urtubia
+ * Exports a knex and MySQL db connection
+ */
+
 const knex = require('knex');
 const config = require('./knexfile');
 

@@ -1,3 +1,8 @@
+/**
+ * Author: Dennis Felipe Urtubia
+ * Index for all routes of API
+ */
+
 const express = require('express');
 const { errors } = require('celebrate');
 const validationMiddleware = require('../middlewares/validations');

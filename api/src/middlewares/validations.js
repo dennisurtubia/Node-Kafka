@@ -1,3 +1,7 @@
+/**
+ * Author: Dennis Felipe Urtubia
+ * Middleware for request field validations
+ */
 
 const { isCelebrate } = require('celebrate');
 

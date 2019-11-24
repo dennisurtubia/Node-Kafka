@@ -1,3 +1,8 @@
+/**
+ * Author: Dennis Felipe Urtubia
+ * Product controller
+ */
+
 /* eslint-disable camelcase */
 const knex = require('../../db/knex');
 

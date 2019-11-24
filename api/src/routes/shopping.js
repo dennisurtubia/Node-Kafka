@@ -1,3 +1,8 @@
+/**
+ * Author: Dennis Felipe Urtubia
+ * Sale routes
+ */
+
 const router = require('express').Router();
 const controller = require('../controllers/shopping');
 const validations = require('../validations/shopping');

@@ -1,3 +1,8 @@
+/**
+ * Author: Dennis Felipe Urtubia
+ * Configuration for Kafka producer/consumer and Server HTTP
+ */
+
 /* eslint-disable no-console */
 const express = require('express');
 const { Kafka, logLevel } = require('kafkajs');

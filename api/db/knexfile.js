@@ -1,3 +1,8 @@
+/**
+ * Author: Dennis Felipe Urtubia
+ * Configs for knex querybuilder
+ */
+
 module.exports = {
   development: {
     client: "mysql",

@@ -1,3 +1,8 @@
+/**
+ * Author: Dennis Felipe Urtubia
+ * Message producer of sales microservice
+ */
+
 /* eslint-disable camelcase */
 const { CompressionTypes } = require('kafkajs');
 

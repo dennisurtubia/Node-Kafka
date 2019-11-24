@@ -1,4 +1,9 @@
 
+/**
+ * Author: Dennis Felipe Urtubia
+ * Products routes
+ */
+
 const router = require('express').Router();
 const controller = require('../controllers/product');
 const validations = require('../validations/product');

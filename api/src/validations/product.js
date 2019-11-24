@@ -1,3 +1,8 @@
+/**
+ * Author: Dennis Felipe Urtubia
+ * Products validation
+ */
+
 const { Joi, celebrate } = require('celebrate');
 
 module.exports = {

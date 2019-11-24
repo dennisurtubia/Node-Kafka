@@ -1,4 +1,9 @@
-const knex = require('../db/knex');
+/**
+ * Author: Dennis Felipe Urtubia
+ * Controller for sale transaction
+ */
+
+ const knex = require('../db/knex');
 const { cardValidation } = require('./utils/cards');
 
 async function rejectTransaction(product_id, amount_purchased, unitary_value) {

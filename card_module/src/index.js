@@ -1,3 +1,8 @@
+/**
+ * Author: Dennis Felipe Urtubia
+ * Configuration for Kafka producer/consumer
+ */
+
 const { Kafka } = require('kafkajs');
 const { sale } = require('./controller');
 

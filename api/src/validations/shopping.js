@@ -1,3 +1,7 @@
+/**
+ * Author: Dennis Felipe Urtubia
+ * Sale validation
+ */
 
 const { Joi, celebrate } = require('celebrate');
 

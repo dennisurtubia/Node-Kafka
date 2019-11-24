@@ -1,3 +1,8 @@
+/**
+ * Author: Dennis Felipe Urtubia
+ * Util for card validation
+ */
+
 module.exports = {
   cardValidation: {
     Visa: /^4[0-9]{12}(?:[0-9]{3})/,
