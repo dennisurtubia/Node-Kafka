@@ -1,5 +1,5 @@
   -- CREATE SCHEMA IF NOT EXISTS backend_test DEFAULT CHARACTER SET utf8;
---   USE backend_test;
+USE node_kafka;
 
   -- -----------------------------------------------------
   -- Tabela produtos
